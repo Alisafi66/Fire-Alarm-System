@@ -23,7 +23,8 @@ When fire presence is detected by the fire sensor (fire sensor value is greater 
 The other smoke sensor, MQ-2, has been integrated, but its sensitivity further needs calibration before it reliably triggers the alarm.
 # Current Issues:
 The MQ-2 smoke sensor requires adjustments to both sensitivity and threshold if adequate alarm triggering is to be achieved.
-The calibration of the fire sensor is ongoing, as it still outputs a continuous high reading. 
+The calibration of the fire sensor is ongoing, as it still outputs a continuous high reading.
+The random false readings from the sensors will continue to create the disturbances. Further changes will be made in the calibration of the sensors or different sensors will be tried for more reliable and accurate detection. 
 # Next Steps:
 Fine-tuning of the smoke sensor for increased sensitivity.
 Integration with the IoT cloud: the next big goal for this is interfacing the entire system with a cloud IoT platform such as Blynk, which allows remote monitoring and notifications. This will involve connecting the ESP32 to Wi-Fi and configuring Blynk for various alerts.
