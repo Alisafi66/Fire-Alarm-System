@@ -29,3 +29,10 @@ Fine-tuning of the smoke sensor for increased sensitivity.
 Integration with the IoT cloud: the next big goal for this is interfacing the entire system with a cloud IoT platform such as Blynk, which allows remote monitoring and notifications. This will involve connecting the ESP32 to Wi-Fi and configuring Blynk for various alerts.
 Via this project, remote monitoring for fire detection systems will initially let people know about any fire events of which they were aware, even while away from the location it was installed.
 Let me know if there are any other modifications you wish to have done or if you would need help with Blynk integration! 
+### IoT Integration with Blynk
+
+As part of the project, I have integrated **Blynk IoT platform** for real-time remote monitoring and notifications. You can access the live dashboard for the fire detection system here:
+
+[Blynk Dashboard](https://blynk.cloud/dashboard/681806/global/devices/1/organization/681806/devices/2895555/dashboard)
+
+The dashboard provides real-time updates of the system, and notifications will be sent when fire is detected, enabling remote alerts.
