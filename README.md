@@ -20,20 +20,17 @@ System works based on the calibrated fire detection threshold of fire sensor.
 
 The system works as one would expect, with the Green LED normally ON, and the OLED display active with fire readings.
 When fire presence is detected by the fire sensor (fire sensor value is greater than the threshold), the Red LED and the Buzzer are turned ON and the OLED shows "Fire Detected!". Then after 10 seconds, the system resets itself, back to Green LED ON.
-The other smoke sensor, MQ-2, has been integrated, but its sensitivity further needs calibration before it reliably triggers the alarm.
-# Current Issues:
-The MQ-2 smoke sensor requires adjustments to both sensitivity and threshold if adequate alarm triggering is to be achieved.
-The calibration of the fire sensor is ongoing, as it still outputs a continuous high reading.
-The random false readings from the sensors will continue to create the disturbances. Further changes will be made in the calibration of the sensors or different sensors will be tried for more reliable and accurate detection. 
+The other smoke sensor, MQ-2, has been integrated, it reliably triggers the alarm.
+
 # Next Steps:
-Fine-tuning of the smoke sensor for increased sensitivity.
-Integration with the IoT cloud: the next big goal for this is interfacing the entire system with a cloud IoT platform such as Blynk, which allows remote monitoring and notifications. This will involve connecting the ESP32 to Wi-Fi and configuring Blynk for various alerts.
+
+**Integration with the IoT cloud:** the next big goal for this is interfacing the entire system with a cloud IoT platform such as Blynk, which allows remote monitoring and notifications. This will involve connecting the ESP32 to Wi-Fi and configuring Blynk for various alerts.
 Via this project, remote monitoring for fire detection systems will initially let people know about any fire events of which they were aware, even while away from the location it was installed.
-Let me know if there are any other modifications you wish to have done or if you would need help with Blynk integration! 
+A water pump will be incorporated into the system, controlled through a relay, ensuring the entire system operates autonomously.
+
 ### IoT Integration with Blynk
 
-As part of the project, I have integrated **Blynk IoT platform** for real-time remote monitoring and notifications. You can access the live dashboard for the fire detection system here:
-
+As part of the project, I have integrated the **Blynk IoT platform** for real-time remote monitoring and notifications. While the Blynk integration is not yet fully completed, I will provide updates once the entire project is finalized.
 [Blynk Dashboard](https://blynk.cloud/dashboard/681806/global/devices/1/organization/681806/devices/2895555/dashboard)
 
 The dashboard provides real-time updates of the system, and notifications will be sent when fire is detected, enabling remote alerts.
