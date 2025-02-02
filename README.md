@@ -2,16 +2,16 @@
  The flame sensor used is of the MH Sensor Series which senses infrared radiation for fire detection.
 Smoke Detection: It is a MQ-2 smoke sensor that would be used for smoke or gas particle detection in the air.
 # Visual Indicators:
-Green LED: This shows that the system is working fine and there is no fire or smoke.
-Red LED: In case of fire or smoke, this LED will be lit.
+**Green LED:** This shows that the system is working fine and there is no fire or smoke.
+**Red LED:** In case of fire or smoke, this LED will be lit.
 # Alerting Mechanism:
-Buzzer: It is there to create an audible alert; in case of fire or smoke, it senses
-OLED Display: It shows real-time values of fire and smoke sensors
-Water Pump Control: The controlling part of the water pump; a relay module integrates this
+**Buzzer:** It is there to create an audible alert; in case of fire or smoke, it senses
+**OLED Display:** It shows real-time values of fire and smoke sensors
+**Water Pump Control:** The controlling part of the water pump; a relay module integrates this
 Blynk IoT Integration: Remote monitoring and control via the Blynk cloud platform, involving remote alerts and the activation of the water pump.
 # Development Overview:
 # System Setup:
-**Sensors**: Set up was done on MH-Sensor flame and MQ-2 smoke sensors to integrate them into ESP32 to give real-time sensor data about the detection of fire and smoke.
+**Sensors:** Set up was done on MH-Sensor flame and MQ-2 smoke sensors to integrate them into ESP32 to give real-time sensor data about the detection of fire and smoke.
 Visual Indicators:
 Green LED: The absence of fire or smoke—to indicate normal operation.
 Red LED: For activation when fire or smoke is detected.
