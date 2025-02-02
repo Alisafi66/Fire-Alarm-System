@@ -49,3 +49,9 @@ Blynk Dashboard
 The Fire and Smoke Detection System has been made operational with provision of automatic fire and smoke detection along with real-time monitoring and alerting features. Furthermore, integration with Blynk makes the entire system remotely controllable with remote notification. Thus, it is a reliable, cost-effective, automated solution to enhancing fire safety and emergency response in home as well as at work or in an industrial space.
 Scaling: Scalability is related to how the application can scale for larger facilities and varying ambient conditions.
 Cloud IoT Platform Expansion: Looking for other IoT cloud platforms to enjoy better scalability and services.
+
+
+### Fire Alarm System Demo Video
+
+You can view the demo video for the Fire Alarm System by clicking [here](https://drive.google.com/file/d/1BzJult3Wm1GoJ_U7ZclB84Wce6Htlp6w/view?usp=sharing).
+
